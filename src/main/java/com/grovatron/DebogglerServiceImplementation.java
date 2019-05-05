@@ -75,7 +75,7 @@ public class DebogglerServiceImplementation implements DebogglerService {
 			valueModifier = new ValueModifier(Modifier.WORD, 3);
 		}
 		
-		return new Letter(letterInput.getLetter(), letterInput.getValue(), valueModifier);
+		return new Letter(letterInput.getLetter().toUpperCase(), letterInput.getValue(), valueModifier);
 	}
 
 	

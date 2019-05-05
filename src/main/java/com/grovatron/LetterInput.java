@@ -16,6 +16,7 @@ public class LetterInput {
 	private String letter;
 	@NotNull
 	private Integer value;
+	@NotNull
 	@ValidModifier
 	private String modifier;
 	

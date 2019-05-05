@@ -14,6 +14,7 @@ import lombok.Data;
 @Data
 public class DebogglerForm {
 
+	@NotNull
 	@ScoringSystem
 	private String scoringSystem;
 	@NotNull

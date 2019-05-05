@@ -14,6 +14,10 @@ public class ValidModifierValidator implements ConstraintValidator<ValidModifier
 	
 	@Override
 	public boolean isValid(String value, ConstraintValidatorContext context) {
+		boolean result;
+		if (value == null) {
+			return false;
+		}
 		for (String modifier : validModifiers) {
 			if (value.equalsIgnoreCase(modifier)) {
 				return true;
