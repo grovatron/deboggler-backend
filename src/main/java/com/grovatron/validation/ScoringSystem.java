@@ -1,4 +1,4 @@
-package com.grovatron;
+package com.grovatron.validation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -5,6 +5,8 @@ import java.util.List;
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 
+import com.grovatron.validation.ScoringSystem;
+
 import lombok.Data;
 
 @Data
