@@ -15,7 +15,7 @@ import com.grovatron.deboggler.Word;
 public class DebogglerController {
 
 	@Autowired
-	private DebogglerFormService debogglerFormService;
+	private DebogglerService debogglerFormService;
 	
 	@GetMapping("/words")
 	List<Word> getWordList(@Valid @RequestBody DebogglerForm debogglerForm) {
