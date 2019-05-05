@@ -69,14 +69,6 @@
 			</snapshots>
 		</repository>
 		<repository>
-			<id>local</id>
-			<name>my-local-repository</name>
-			<url>C:\Users\grove\.m2\repository</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-		<repository>
 			<id>spring-milestones</id>
 			<name>Spring Milestones</name>
 			<url>https://repo.spring.io/milestone</url>
