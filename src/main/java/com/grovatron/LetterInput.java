@@ -4,6 +4,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
 import com.grovatron.validation.ValidLetter;
+import com.grovatron.validation.ValidModifier;
 
 import lombok.Data;
 
