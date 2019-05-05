@@ -7,6 +7,7 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 import com.grovatron.validation.ScoringSystem;
+import com.grovatron.validation.SquareGrid;
 
 import lombok.Data;
 
