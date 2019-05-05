@@ -2,6 +2,8 @@ package com.grovatron;
 
 import javax.validation.constraints.NotNull;
 
+import com.grovatron.validation.ValidLetter;
+
 import lombok.Data;
 
 @Data
